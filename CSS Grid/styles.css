@@ -1,0 +1,55 @@
+/* General styling */
+/* (You can safely ignore these for this exercise) */
+
+body {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 12px;
+	font-family: sans-serif;
+	background-color: rgb(9, 54, 98);
+}
+
+.panel {
+	padding: 12px;
+	box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.5);
+	background-color: white;
+}
+
+.panel :last-child {
+	margin-bottom: 0;
+}
+
+img.panel {
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+/* Add your styling here! */
+
+body {
+}
+
+header {
+}
+
+main {
+}
+
+#side-bar {
+}
+
+#gallery {
+}
+
+footer {
+}
+
+@media (min-width: 900px) {
+}
