@@ -1,0 +1,40 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	font-size: 28px;
+	font-family: sans-serif;
+}
+
+p {
+	font-weight: bold;
+}
+
+.button-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+button {
+	width: 100px;
+	aspect-ratio: 1;
+	font: inherit;
+	background-color: #ddd;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 4px;
+	margin: 0;
+}
+
+button:hover {
+	background-color: #eee;
+}
+
+button.activated {
+	background-color: #6ff;
+}

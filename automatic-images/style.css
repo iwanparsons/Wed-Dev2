@@ -1,0 +1,14 @@
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 800px;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+.tall {
+	grid-row: span 2;
+}
